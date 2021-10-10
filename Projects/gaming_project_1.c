@@ -12,6 +12,7 @@ int main()
         scanf("%d",&guess);
         if(guess>number){
         printf("Lower number please!");
+            printf("ghj");
         }
         else if(guess<number){
         printf("Higher number please!");
