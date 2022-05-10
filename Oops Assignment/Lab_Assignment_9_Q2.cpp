@@ -20,14 +20,14 @@ class Validate_Email{
         }
         
         else{
-            string p = "moc.";
-            string q;
+            string t = "moc.";
+            string f;
             for(int i = email_address.size()-1;i>email_address.size()-5;--i){
-                q.push_back(email_address[i]);
+                f.push_back(email_address[i]);
             }
             
             
-            if(q==p){
+            if(f==t){
                 cout<<"Valid Email Address"<<endl;
             }
             else{

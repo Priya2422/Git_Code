@@ -1,6 +1,7 @@
 #include<stdio.h>
+#include<unistd.h>
 int main()
 {
-    printf("Neso Academy");
-return 0
+    printf("%d %d",getpid(),getppid());
+return 0;
 }

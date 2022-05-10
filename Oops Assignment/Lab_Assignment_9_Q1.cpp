@@ -16,7 +16,7 @@ class xyz {
 	ABC o1;
 	abc o2;
 	public:
-		void show_info() {
+		void test() {
 			o1.display();
 			o2.show();
 		}
@@ -24,6 +24,6 @@ class xyz {
 int main()
 {
 	xyz o3;
-	o3.show_info();
+	o3.test();
 	return 0;
 }
